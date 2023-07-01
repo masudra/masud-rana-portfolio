@@ -11,8 +11,8 @@ import logo7 from '../../../../public/skills/firebase.png'
 const Skills = () => {
     return (
         <div className='mb-10'>
-            <div className='flex  justify-center link'>
-                <h1 className=" text-center text-4xl font-bold text-purple-700 my-10">Skills </h1>
+            <div className='flex  justify-center '>
+                <h1 className=" link text-center text-4xl font-bold text-purple-700 my-10">Skills </h1>
                 <img className='w-[100px] h-[100px]' src={logoSkills} alt="" />
             </div>
             <div className="divider"></div>

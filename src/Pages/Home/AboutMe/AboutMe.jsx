@@ -11,19 +11,19 @@ const AboutMe = () => {
 
             <div className="w-[700px] mx-16">
 
-                <div className="flex gap-20 justify-center">
-                    <div className=" w-[170px] mb-10  p-4  bg-slate-900 rounded-lg shadow-xl  hover:translate-x-2.5 hover:translate-y-3 text-center">
+                <div className="flex gap-20 justify-center text-white">
+                    <div className=" w-[170px] mb-10  p-4 text-base-content bg-slate-200 hover:bg-white hover:text-black rounded-lg shadow-xl  hover:translate-x-2.5 hover:translate-y-3 text-center">
                         <img className="w-[40px] mx-auto " src="../../../../public/experience.png" alt="" />
                         <h1 className="text-2xl my-2">Experience</h1>
                         <h1 className="text-xl ">1 Month</h1>
                     </div>
-                    <div className=" w-[170px] mb-10  p-4  bg-slate-900 rounded-lg shadow-xl  hover:translate-x-2.5 hover:translate-y-3 text-center">
-                        <img className="w-[40px] mx-auto " src="../../../../public/experience.png" alt="" />
+                    <div className=" w-[170px] mb-10  p-4  text-base-content bg-slate-200 hover:bg-white hover:text-black rounded-lg shadow-xl  hover:translate-x-2.5 hover:translate-y-3 text-center">
+                        <img className="w-[40px] mx-auto " src="../../../../public/project (1).png" alt="" />
                         <h1 className="text-2xl my-2">Projects</h1>
                         <h1 className="text-xl ">15+</h1>
                     </div>
-                    <div className=" w-[170px] mb-10  p-4  bg-slate-900 rounded-lg shadow-xl  hover:translate-x-2.5 hover:translate-y-3 text-center">
-                        <img className="w-[40px] mx-auto " src="../../../../public/experience.png" alt="" />
+                    <div className=" w-[170px] mb-10  p-4 text-base-content bg-slate-200 hover:bg-white hover:text-black rounded-lg shadow-xl  hover:translate-x-2.5 hover:translate-y-3 text-center">
+                        <img className="w-[40px] mx-auto " src="../../../../public/customer-care-icon.png" alt="" />
                         <h1 className="text-xl my-2">Support</h1>
                         <h1 className="text-xl ">Online 24/7</h1>
                     </div>
