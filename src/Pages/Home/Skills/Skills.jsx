@@ -11,13 +11,13 @@ import logo7 from '../../../../public/skills/firebase.png'
 const Skills = () => {
     return (
         <div className='mb-10'>
-           <div className='flex  justify-center'>
-           <h1 className=" text-center text-4xl font-bold text-purple-700 my-10">Skills </h1>
-            <img className='w-[100px] h-[100px]' src={logoSkills} alt="" />
-           </div>
-           <div className="divider"></div>
+            <div className='flex  justify-center link'>
+                <h1 className=" text-center text-4xl font-bold text-purple-700 my-10">Skills </h1>
+                <img className='w-[100px] h-[100px]' src={logoSkills} alt="" />
+            </div>
+            <div className="divider"></div>
 
-            <div className=' grid grid-cols-4 gap-5 ml-14 '>
+            <div className=' grid grid-cols-2 md:grid-cols-4 gap-5 md:ml-14 ml-8 '>
                 <img className='w-[120px] h-[120px] bg-white hover:bg-slate-400 p-2' src={logo} alt="" />
                 <img className='w-[120px] h-[120px] bg-white hover:bg-slate-400 p-2' src={logo1} alt="" />
                 <img className='w-[120px] h-[120px] bg-white hover:bg-slate-400 p-2' src={logo2} alt="" />
