@@ -1,15 +1,17 @@
 
 const Navbar = () => {
-    const navitem = <div className="text-purple-700 gap-4 flex text-2xl ">
-        <li>Home</li>
-        <li>Home1</li>
-        <li>Home2</li>
-        <li>Home3</li>
+    const navitem = <div className="text-purple-700 gap-4 md:flex md:mr-60  text-2xl ">
+        <li className="hover:bg-purple-700 hover:text-white hover:font-bold p-1">Home</li>
+        <li className="hover:bg-purple-700 hover:text-white hover:font-bold p-1">About Me</li>
+        <li className="hover:bg-purple-700 hover:text-white hover:font-bold p-1">Skills</li>
+        <li className="hover:bg-purple-700 hover:text-white hover:font-bold p-1">Projects</li>
+        <li className="hover:bg-purple-700 hover:text-white hover:font-bold p-1">Services</li>
+        <li className="hover:bg-purple-700 hover:text-white hover:font-bold p-1">Contact Me</li>
     </div>
 
     return (
         <div>
-            <div className="navbar bg-base-100">
+            <div className="navbar bg-slate-200">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -30,7 +32,7 @@ const Navbar = () => {
                         }
                     </ul>
                 </div>
-              
+
             </div>
 
         </div>
@@ -38,3 +40,6 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
+
