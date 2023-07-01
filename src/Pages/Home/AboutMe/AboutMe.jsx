@@ -15,7 +15,7 @@ const AboutMe = () => {
                     <div className=" w-[170px] mb-10  p-4 text-base-content bg-slate-200 hover:bg-white hover:text-black rounded-lg shadow-xl  hover:translate-x-2.5 hover:translate-y-3 text-center">
                         <img className="w-[40px] mx-auto " src="../../../../public/experience.png" alt="" />
                         <h1 className="text-2xl my-2">Experience</h1>
-                        <h1 className="text-xl ">1 Month</h1>
+                        <h1 className="text-xl ">3 Month</h1>
                     </div>
                     <div className=" w-[170px] mb-10  p-4  text-base-content bg-slate-200 hover:bg-white hover:text-black rounded-lg shadow-xl  hover:translate-x-2.5 hover:translate-y-3 text-center">
                         <img className="w-[40px] mx-auto " src="../../../../public/project (1).png" alt="" />
