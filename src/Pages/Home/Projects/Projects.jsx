@@ -12,10 +12,10 @@ const Projects = () => {
                     <div className="image-wrap">
                         <img className='mb-2' src={logo1} />
                     </div>
-                    <div className=' mt-4'>
-                        <Link className='text-xl p-2 bg-purple-700 rounded-xl text-white hover:bg-white hover:text-purple-700 hover:font-bold' to="https://imaginative-conkies-076b74.netlify.app/" target='-blank'>Live Site</Link>
-                        <Link className='text-xl p-2 ml-1 bg-purple-700 rounded-xl text-white hover:bg-white hover:text-purple-700 hover:font-bold' to="https://github.com/masudra/mr-academy-client-site" target='-blank'>Client Code</Link>
-                        <Link className='text-xl p-2 ml-1 bg-purple-700 rounded-xl text-white hover:bg-white hover:text-purple-700 hover:font-bold ' to="https://github.com/masudra/mr-academy-server-site" target='-blank'>Server Code</Link>
+                    <div className='md:flex mt-4 grid gap-2'>
+                        <Link className='md:text-xl p-2  ml-1 bg-purple-700 rounded-xl text-white hover:bg-white hover:text-purple-700 hover:font-bold' to="https://imaginative-conkies-076b74.netlify.app/" target='-blank'>Live Site</Link> 
+                        <Link className='md:text-xl p-2  ml-1 bg-purple-700 rounded-xl text-white hover:bg-white hover:text-purple-700 hover:font-bold' to="https://github.com/masudra/mr-academy-client-site" target='-blank'>Client Code</Link><br/>
+                        <Link className='md:text-xl p-2  ml-1 bg-purple-700 rounded-xl text-white hover:bg-white hover:text-purple-700 hover:font-bold ' to="https://github.com/masudra/mr-academy-server-site" target='-blank'>Server Code</Link>
                     </div>
                     <div className='mt-4'>
                         <div>
@@ -46,10 +46,10 @@ const Projects = () => {
                     <div className="image-wrap">
                         <img className='mb-2' src={logo1} />
                     </div>
-                    <div className=' mt-4'>
-                        <Link className='text-xl p-2 bg-purple-700 rounded-xl text-white hover:bg-white hover:text-purple-700 hover:font-bold' to="https://imaginative-conkies-076b74.netlify.app/" target='-blank'>Live Site</Link>
-                        <Link className='text-xl p-2 ml-1 bg-purple-700 rounded-xl text-white hover:bg-white hover:text-purple-700 hover:font-bold' to="https://github.com/masudra/mr-academy-client-site" target='-blank'>Client Code</Link>
-                        <Link className='text-xl p-2 ml-1 bg-purple-700 rounded-xl text-white hover:bg-white hover:text-purple-700 hover:font-bold ' to="https://github.com/masudra/mr-academy-server-site" target='-blank'>Server Code</Link>
+                    <div className='md:flex mt-4 grid gap-2'>
+                        <Link className='md:text-xl p-2  ml-1 bg-purple-700 rounded-xl text-white hover:bg-white hover:text-purple-700 hover:font-bold' to="https://verdant-bombolone-344ef4.netlify.app/" target='-blank'>Live Site</Link> 
+                        <Link className='md:text-xl p-2  ml-1 bg-purple-700 rounded-xl text-white hover:bg-white hover:text-purple-700 hover:font-bold' to="https://github.com/masudra/toy-bazar-clint-site" target='-blank'>Client Code</Link><br/>
+                        <Link className='md:text-xl p-2  ml-1 bg-purple-700 rounded-xl text-white hover:bg-white hover:text-purple-700 hover:font-bold ' to="https://github.com/masudra/toy-bazer-server-site" target='-blank'>Server Code</Link>
                     </div>
                     <div className='mt-4'>
                         <div>
@@ -80,10 +80,10 @@ const Projects = () => {
                     <div className="image-wrap">
                         <img className='mb-2' src={logo1} />
                     </div>
-                    <div className=' mt-4'>
-                        <Link className='text-xl p-2 bg-purple-700 rounded-xl text-white hover:bg-white hover:text-purple-700 hover:font-bold' to="https://imaginative-conkies-076b74.netlify.app/" target='-blank'>Live Site</Link>
-                        <Link className='text-xl p-2 ml-1 bg-purple-700 rounded-xl text-white hover:bg-white hover:text-purple-700 hover:font-bold' to="https://github.com/masudra/mr-academy-client-site" target='-blank'>Client Code</Link>
-                        <Link className='text-xl p-2 ml-1 bg-purple-700 rounded-xl text-white hover:bg-white hover:text-purple-700 hover:font-bold ' to="https://github.com/masudra/mr-academy-server-site" target='-blank'>Server Code</Link>
+                    <div className='md:flex mt-4 grid gap-2'>
+                        <Link className='md:text-xl p-2  ml-1 bg-purple-700 rounded-xl text-white hover:bg-white hover:text-purple-700 hover:font-bold' to="https://incomparable-cactus-94e133.netlify.app/" target='-blank'>Live Site</Link> 
+                        <Link className='md:text-xl p-2  ml-1 bg-purple-700 rounded-xl text-white hover:bg-white hover:text-purple-700 hover:font-bold' to="https://github.com/masudra/best-chef-clint-site" target='-blank'>Client Code</Link><br/>
+                        <Link className='md:text-xl p-2  ml-1 bg-purple-700 rounded-xl text-white hover:bg-white hover:text-purple-700 hover:font-bold ' to="https://github.com/masudra/best-chef-server-site" target='-blank'>Server Code</Link>
                     </div>
                     <div className='mt-4'>
                         <div>
@@ -110,6 +110,8 @@ const Projects = () => {
 
                     </div>
                 </div>
+             
+               
             </div>
 
 

@@ -1,3 +1,5 @@
+import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 import { TypeAnimation } from 'react-type-animation';
 
 const Banner = () => {
@@ -31,8 +33,17 @@ const Banner = () => {
           repeat={Infinity}
         /><br />
 
-        <button onClick={handleDownload} className='btn bg-purple-700 text-white hover:bg-white hover:text-purple-700 mt-10'>Download Resume</button>
+       <div className='md:flex'>
+       <button onClick={handleDownload} className='btn bg-purple-700 text-white hover:bg-white hover:text-purple-700 mt-10'>Download Resume</button>
         {/* <a href="Resume Of Masud Rana.pdf" download='Resume Of Masud Rana.pdf'>d now</a> */}
+        <div className="flex justify-center ml-6  gap-5 text-4xl mt-10">
+                <Link className="text-purple-700" to='https://github.com/masudra'><FaGithub></FaGithub></Link>
+                <Link className="text-purple-700" to='https://www.facebook.com/masudrana0707'><FaFacebook></FaFacebook></Link>
+                <Link className="text-purple-700" to='https://www.linkedin.com/in/md-masud-rana-731130235'><FaLinkedin></FaLinkedin></Link>
+                <Link className="text-purple-700" to='https://twitter.com/MdMasud71285325'><FaTwitter></FaTwitter></Link>
+
+            </div>
+       </div>
       </div>
       <div className='md:mr-20'>
         <img className='w-[400px] ' src="../../../../public/vs-designer-GIF-unscreen.gif" alt="" />
