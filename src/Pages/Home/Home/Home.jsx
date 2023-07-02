@@ -9,7 +9,7 @@ import ContactUsEmail from "../contactUsEmail/contactUsEmail";
 
 const Home = () => {
     return (
-        <div className="bg-slate-100">
+        <div>
             <Navbar></Navbar>
             <Banner></Banner>
             <AboutMe></AboutMe>
