@@ -2,6 +2,13 @@ import { TypeAnimation } from 'react-type-animation';
 
 const Banner = () => {
 
+  const handleDownload = () => {
+    const link = document.createElement('a');
+   const mr= link.href = 'Resume Of Masud Rana.pdf';
+    link.download = mr;
+    link.click();
+  };
+
   return (
     <div className='md:flex  justify-between  px-10 py-2  '>
       <div className='text-purple-700 font-bold my-auto ml-10'>
@@ -24,7 +31,8 @@ const Banner = () => {
           repeat={Infinity}
         /><br />
 
-        <button className='btn bg-purple-700 text-white hover:bg-white hover:text-purple-700 mt-10'>Download Resume</button>
+        <button onClick={handleDownload} className='btn bg-purple-700 text-white hover:bg-white hover:text-purple-700 mt-10'>Download Resume</button>
+        {/* <a href="Resume Of Masud Rana.pdf" download='Resume Of Masud Rana.pdf'>d now</a> */}
       </div>
       <div className='md:mr-20'>
         <img className='w-[400px] ' src="../../../../public/vs-designer-GIF-unscreen.gif" alt="" />
