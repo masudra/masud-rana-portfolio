@@ -23,7 +23,7 @@ const Navbar = () => {
                             }
                         </ul>
                     </div>
-                    <a className=" font-bold normal-case text-3xl text-purple-700">Masud Rana</a>
+                    <a className="ml-10 font-bold normal-case text-3xl text-purple-700">Masud Rana</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">

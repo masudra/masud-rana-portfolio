@@ -1,6 +1,7 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import myphoto from '../../../../public/Serveis/my photo.jpg'
 
 
 AOS.init({
@@ -18,7 +19,7 @@ const AboutMe = () => {
 
             <div data-aos="flip-left"  className=" md:flex">
                 <div className=" md:mx-20 mx-5 ">
-                    <img className="md:w-[350px] w-[250px] mx-auto mb-8 ounded-lg shadow-xl  hover:translate-x-2.5 hover:translate-y-3 mt-10" src="../../../../public/my photo.jpg" alt="" />
+                    <img className="md:w-[350px] w-[250px] mx-auto mb-8 ounded-lg shadow-xl  hover:translate-x-2.5 hover:translate-y-3 mt-10 rounded-full" src={myphoto} alt="" />
                 </div>
 
                 <div className="w-[700px] md:mx-16 ">

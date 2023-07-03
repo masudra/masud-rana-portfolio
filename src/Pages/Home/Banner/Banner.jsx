@@ -1,6 +1,7 @@
 import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { TypeAnimation } from 'react-type-animation';
+import bannarlogo from '../../../../public/Serveis/vs-designer-GIF-unscreen.gif'
 
 const Banner = () => {
 
@@ -46,7 +47,7 @@ const Banner = () => {
         </div>
       </div>
       <div className='md:mr-20 md:mt-20'>
-        <img className='w-[400px] ' src="../../../../public/vs-designer-GIF-unscreen.gif" alt="" />
+        <img className='w-[400px] ' src={bannarlogo} alt="" />
       </div>
 
     </div>
