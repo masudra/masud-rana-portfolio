@@ -3,7 +3,6 @@ import logo1 from '../../../../public/project1/photo1.jpg'
 import logo2 from '../../../../public/project2/img1.jpg'
 import logo3 from '../../../../public/project3/img1 (1).jpg'
 import './Project.css'
-import './Project.css'
 
 
 const Projects = () => {
@@ -23,9 +22,9 @@ const Projects = () => {
                     <div className='mt-4'>
                         <div  className='text-left'>
                             <h1 className=' text-xl text-purple-700 font-bold'>Features:</h1>
-                            <p> Dashboard for Student, Admin and Instructor </p>
-                            <h1>Instructor adds her class to her dashboard page.</h1>
-                            <h1> Admin sees all user admin can make an admin or instructor. </h1>
+                            <p><span className='font-bold'>1:</span> Dashboard for Student, Admin and Instructor </p>
+                            <h1><span className='font-bold'>2:</span>Instructor adds her class to her dashboard page.</h1>
+                            <h1><span className='font-bold'>3:</span>Admin sees all user admin can make an admin or instructor. </h1>
                         </div>
                         <div>
                             <h1 className='text-left
@@ -58,9 +57,9 @@ const Projects = () => {
                     <div className='mt-4'>
                         <div className='text-left'>
                             <h1 className=' text-xl text-purple-700 font-bold'>Features:</h1>
-                            <p>The home page has a navbar, Gallery, Upcoming Toys, Our Top Seller, and a footer. </p>
-                            <h1>All toys page has  all user toy list.</h1>
-                            <h1>The view details  page is private  user login fast and then shows all data.</h1>
+                            <p ><span className='font-bold'>1:</span>The home page has a navbar, Gallery, Upcoming Toys, Our Top Seller, and a footer. </p>
+                            <h1><span className='font-bold'>2:</span>All toys page has  all user toy list.</h1>
+                            <h1><span className='font-bold'>3:</span>The view details  page is private  user login fast and then shows all data.</h1>
                         </div>
                         <div>
                             <h1 className=' text-left text-xl text-purple-700 font-bold'>Technologies:</h1>
@@ -92,9 +91,9 @@ const Projects = () => {
                     <div className='mt-4'>
                         <div  className='text-left'>
                             <h1 className=' text-xl text-purple-700 font-bold'>Features:</h1>
-                            <p className='ml-0'>The home page has a navbar,chefs cards and a footer. </p>
-                            <h1>The view Recipes page is private user login fast and then shows all data.</h1>
-                            <h1>The view details page has chef all information</h1>
+                            <p ><span className='font-bold'>1:</span>The home page has a navbar,chefs cards and a footer. </p>
+                            <h1><span className='font-bold'>2:</span>The view Recipes page is private user login fast and then shows all data.</h1>
+                            <h1><span className='font-bold'>3:</span>The view details page has chef all information</h1>
                         </div>
                         <div>
                             <h1 className='text-left text-xl text-purple-700 font-bold'>Technologies:</h1>

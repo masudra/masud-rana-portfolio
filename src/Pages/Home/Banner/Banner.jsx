@@ -12,8 +12,8 @@ const Banner = () => {
   };
 
   return (
-    <div className='md:flex  justify-between  px-10 py-2  '>
-      <div className='text-purple-700 font-bold my-auto ml-10'>
+    <div className='md:flex  justify-between  px-10 py-2   '>
+      <div className='text-purple-700 font-bold my-auto ml-10 md:mt-32'>
         <h1 className='md:text-[50px] text-3xl text-purple-700 '>Hello,<br /><br/> <span className='mt-100'>I am  Masud Rana</span></h1>
         <TypeAnimation className='md:text-[50px] text-3xl mt-8'
           sequence={[
@@ -45,7 +45,7 @@ const Banner = () => {
             </div>
        </div>
       </div>
-      <div className='md:mr-20'>
+      <div className='md:mr-20 md:mt-20'>
         <img className='w-[400px] ' src="../../../../public/vs-designer-GIF-unscreen.gif" alt="" />
       </div>
 
