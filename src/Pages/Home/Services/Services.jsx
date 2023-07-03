@@ -1,7 +1,17 @@
+import Aos from "aos";
+import { useEffect } from "react";
 
+Aos.init({
+  duration: 1800,
+});
 const Services = () => {
+    useEffect(() => {
+        Aos.init();
+        Aos.refresh();
+    }, []);
+
   return (
-    <div id="services">
+    <div data-aos="zoom-out-up" id="services">
       <h1 className=" text-4xl text-purple-700 text-center link my-2 mt-20">Services</h1>
       <div className=" grid md:grid-cols-3 md:ml-10 px-8 gap-2">
         <div className=" md:w-[380px] w-[300px] p-4 text-base-content bg-slate-200 mt-6  hover:bg-white hover:text-black rounded-lg shadow-xl  hover:translate-x-2.5 hover:translate-y-3 text-center">

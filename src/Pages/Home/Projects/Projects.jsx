@@ -3,14 +3,13 @@ import logo1 from '../../../../public/project1/photo1.jpg'
 import logo2 from '../../../../public/project2/img1.jpg'
 import logo3 from '../../../../public/project3/img1 (1).jpg'
 import './Project.css'
-
-
 const Projects = () => {
+   
     return (
         <div id='projects' className="">
             <h1 className="text-4xl text-purple-700 text-center link mt-16 ">Projects</h1>
             <div className="grid md:grid-cols-3 ml-6 px-2 ">
-                <div className=' md:w-[410px] w-[300px] p-4 text-base-content bg-slate-200 mt-6  hover:bg-slate-400 hover:text-black rounded-lg shadow-xl  hover:translate-x-2.5 hover:translate-y-3 text-center'>
+                <div data-aos="fade-up-right" className=' md:w-[410px] w-[300px] p-4 text-base-content bg-slate-200 mt-6  hover:bg-slate-400 hover:text-black rounded-lg shadow-xl  hover:translate-x-2.5 hover:translate-y-3 text-center'>
                     <div className="image-wrap">
                         <img className='mb-2' src={logo1} />
                     </div>
@@ -45,7 +44,7 @@ const Projects = () => {
 
                     </div>
                 </div>
-                <div className=' md:w-[410px] w-[300px] p-4 text-base-content bg-slate-200 mt-6  hover:bg-slate-400 hover:text-black rounded-lg shadow-xl  hover:translate-x-2.5 hover:translate-y-3 text-center'>
+                <div data-aos="fade-up"  className=' md:w-[410px] w-[300px] p-4 text-base-content bg-slate-200 mt-6  hover:bg-slate-400 hover:text-black rounded-lg shadow-xl  hover:translate-x-2.5 hover:translate-y-3 text-center'>
                     <div className="image-wrap">
                         <img className='mb-2' src={logo2} />
                     </div>
@@ -79,7 +78,7 @@ const Projects = () => {
 
                     </div>
                 </div>
-                <div className=' md:w-[410px] w-[300px] p-4 text-base-content bg-slate-200 mt-6  hover:bg-slate-400 hover:text-black rounded-lg shadow-xl  hover:translate-x-2.5 hover:translate-y-3 text-center'>
+                <div data-aos="fade-up-left" className=' md:w-[410px] w-[300px] p-4 text-base-content bg-slate-200 mt-6  hover:bg-slate-400 hover:text-black rounded-lg shadow-xl  hover:translate-x-2.5 hover:translate-y-3 text-center'>
                     <div className="image-wrap">
                         <img className='mb-2' src={logo3} />
                     </div>

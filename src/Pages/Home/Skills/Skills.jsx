@@ -23,7 +23,7 @@ import logo16 from '../../../../public/skills/command-line-icon-1.png'
 const Skills = () => {
     return (
         <div id='skills' className='mb-10'>
-            <div className='flex  justify-center '>
+            <div  className='flex  justify-center '>
                 <h1 className=" link text-center text-4xl font-bold text-purple-700 my-2 mt-14">Skills </h1>
                 <img className='w-[100px] h-[100px]' src={logoSkills} alt="" />
             </div>
@@ -34,7 +34,7 @@ const Skills = () => {
                 {/* Front End  */}
                 <div className='border shadow '>
                     <h1 className='text-4xl text-purple-700 text-center mt-2'>Front End </h1>
-                    <div className='grid md:grid-cols-3 grid-cols-2  ml-6 my-6  '>
+                    <div data-aos="zoom-out-up" className='grid md:grid-cols-3 grid-cols-2  ml-6 my-6  '>
                         <img className='w-[100px] h-[100px] mb-10  p-2 text-base-content bg-slate-200 hover:bg-white hover:text-black rounded-lg shadow-xl  hover:translate-x-2.5 hover:translate-y-3 text-center' src={logo} alt="" />
                         <img className='w-[100px] h-[100px]  mb-10  p-2 text-base-content bg-slate-200 hover:bg-white hover:text-black rounded-lg shadow-xl  hover:translate-x-2.5 hover:translate-y-3 text-center' src={logo1} alt="" />
                         <img className='w-[100px] h-[100px]  mb-10  p-2 text-base-content bg-slate-200 hover:bg-white hover:text-black rounded-lg shadow-xl  hover:translate-x-2.5 hover:translate-y-3 text-center' src={logo2} alt="" />
@@ -46,7 +46,7 @@ const Skills = () => {
                 </div>
 
                 {/* Backend */}
-                <div className='border shadow '>
+                <div data-aos="zoom-out-up" className='border shadow '>
                     <h1 className='text-4xl text-purple-700 text-center mt-2'>Back End </h1>
                     <div className='grid md:grid-cols-3 grid-cols-2  ml-6 my-6 '>
                         <img className='w-[100px] h-[100px]  mb-10  p-2 text-base-content bg-slate-200 hover:bg-white hover:text-black rounded-lg shadow-xl  hover:translate-x-2.5 hover:translate-y-3 text-center' src={logo6} alt="" />
@@ -58,7 +58,7 @@ const Skills = () => {
                 </div>
                 {/* Tooles */}
 
-                <div className='border shadow '>
+                <div data-aos="zoom-out-up" className='border shadow '>
                     <h1 className='text-4xl text-purple-700 text-center mt-2'> Tools </h1>
                     <div className='grid md:grid-cols-3 grid-cols-2  ml-6 my-6  '>
                         <img className='w-[100px] h-[100px]  mb-10  p-2 text-base-content bg-slate-200 hover:bg-white hover:text-black rounded-lg shadow-xl  hover:translate-x-2.5 hover:translate-y-3 text-center' src={logo10} alt="" />

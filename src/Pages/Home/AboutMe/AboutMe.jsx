@@ -1,10 +1,22 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
+
+AOS.init({
+    duration: 1800,
+});
 const AboutMe = () => {
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+    }, []);
+
     return (
         <div id="aboutme" className="mb-10">
             <h1 className=" link my-10 text-center text-5xl text-purple-700">About Me</h1>
 
-            <div className=" md:flex">
+            <div data-aos="flip-left"  className=" md:flex">
                 <div className=" md:mx-20 mx-5 ">
                     <img className="md:w-[350px] w-[250px] mx-auto mb-8 ounded-lg shadow-xl  hover:translate-x-2.5 hover:translate-y-3 mt-10" src="../../../../public/my photo.jpg" alt="" />
                 </div>
@@ -12,17 +24,17 @@ const AboutMe = () => {
                 <div className="w-[700px] md:mx-16 ">
 
                     <div className="md:flex gap-20 justify-center text-white md:ml-4 ml-20">
-                        <div className=" w-[170px] mb-10  p-4 text-base-content bg-slate-200 hover:bg-white hover:text-black rounded-lg shadow-xl  hover:translate-x-2.5 hover:translate-y-3 text-center">
+                        <div data-aos="zoom-out-up" className=" w-[170px] mb-10  p-4 text-base-content bg-slate-200 hover:bg-white hover:text-black rounded-lg shadow-xl  hover:translate-x-2.5 hover:translate-y-3 text-center">
                             <img className="w-[40px] mx-auto " src="../../../../public/experience.png" alt="" />
                             <h1 className="text-2xl my-2">Experience</h1>
                             <h1 className="text-xl ">3 Month</h1>
                         </div>
-                        <div className=" w-[170px] mb-10  p-4  text-base-content bg-slate-200 hover:bg-white hover:text-black rounded-lg shadow-xl  hover:translate-x-2.5 hover:translate-y-3 text-center">
+                        <div data-aos="zoom-out-up" className=" w-[170px] mb-10  p-4  text-base-content bg-slate-200 hover:bg-white hover:text-black rounded-lg shadow-xl  hover:translate-x-2.5 hover:translate-y-3 text-center">
                             <img className="w-[40px] mx-auto " src="../../../../public/project (1).png" alt="" />
                             <h1 className="text-2xl my-2">Projects</h1>
                             <h1 className="text-xl ">15+</h1>
                         </div>
-                        <div className=" w-[170px] mb-10  p-4 text-base-content bg-slate-200 hover:bg-white hover:text-black rounded-lg shadow-xl  hover:translate-x-2.5 hover:translate-y-3 text-center">
+                        <div data-aos="zoom-out-up" className=" w-[170px] mb-10  p-4 text-base-content bg-slate-200 hover:bg-white hover:text-black rounded-lg shadow-xl  hover:translate-x-2.5 hover:translate-y-3 text-center">
                             <img className="w-[40px] mx-auto " src="../../../../public/customer-care-icon.png" alt="" />
                             <h1 className="text-xl my-2">Support</h1>
                             <h1 className="text-xl ">Online 24/7</h1>
