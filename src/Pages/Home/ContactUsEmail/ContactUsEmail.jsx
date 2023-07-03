@@ -7,6 +7,7 @@ const ContactUsEmail = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
+       
 
         emailjs.sendForm('service_yhotwbt', 'template_9owm68b', form.current, '0Nwt1DDvPHY4j1ddc')
             .then((result) => {
