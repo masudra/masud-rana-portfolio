@@ -27,7 +27,7 @@ const ContactUsEmail = () => {
 
 
     return (
-        <div>
+        <div id='contact'>
             <h1 className=" text-4xl text-purple-700 text-center link mt-16 -mb-16">Contact Me</h1>
             <div className='md:grid grid-cols-2 my-20 border shadow p-10 '>
                 <div>

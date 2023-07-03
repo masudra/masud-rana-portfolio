@@ -22,9 +22,9 @@ import logo16 from '../../../../public/skills/command-line-icon-1.png'
 
 const Skills = () => {
     return (
-        <div className='mb-10'>
+        <div id='skills' className='mb-10'>
             <div className='flex  justify-center '>
-                <h1 className=" link text-center text-4xl font-bold text-purple-700 my-10">Skills </h1>
+                <h1 className=" link text-center text-4xl font-bold text-purple-700 my-2 mt-14">Skills </h1>
                 <img className='w-[100px] h-[100px]' src={logoSkills} alt="" />
             </div>
             <div className="divider"></div>
@@ -41,7 +41,7 @@ const Skills = () => {
                         <img className='w-[100px] h-[100px]  mb-10  p-2 text-base-content bg-slate-200 hover:bg-white hover:text-black rounded-lg shadow-xl  hover:translate-x-2.5 hover:translate-y-3 text-center' src={logo3} alt="" />
                         <img className='w-[100px] h-[100px]  mb-10  p-2 text-base-content bg-slate-200 hover:bg-white hover:text-black rounded-lg shadow-xl  hover:translate-x-2.5 hover:translate-y-3 text-center' src={logo4} alt="" />
                         <img className='w-[100px] h-[100px]  mb-10  p-2 text-base-content bg-slate-200 hover:bg-white hover:text-black rounded-lg shadow-xl  hover:translate-x-2.5 hover:translate-y-3 text-center' src={logo5} alt="" />
-                       
+
                     </div>
                 </div>
 
@@ -68,7 +68,7 @@ const Skills = () => {
                         <img className='w-[100px] h-[100px]  mb-10  p-2 text-base-content bg-slate-200 hover:bg-white hover:text-black rounded-lg shadow-xl  hover:translate-x-2.5 hover:translate-y-3 text-center' src={logo14} alt="" />
                         <img className='w-[100px] h-[100px]  mb-10  p-2 text-base-content bg-slate-200 hover:bg-white hover:text-black rounded-lg shadow-xl  hover:translate-x-2.5 hover:translate-y-3 text-center' src={logo15} alt="" />
                         <img className='w-[100px] h-[100px]  mb-10  p-2 text-base-content bg-slate-200 hover:bg-white hover:text-black rounded-lg shadow-xl  hover:translate-x-2.5 hover:translate-y-3 text-center' src={logo16} alt="" />
-                       
+
                     </div>
                 </div>
 
