@@ -2,6 +2,7 @@ import Footer from "../../Sheard/Footer/Footer";
 import Navbar from "../../Sheard/Navbar/Navbar";
 import AboutMe from "../AboutMe/AboutMe";
 import Banner from "../Banner/Banner";
+import Education from "../Education/Education";
 import Projects from "../Projects/Projects";
 import Services from "../Services/Services";
 import Skills from "../Skills/Skills";
@@ -14,6 +15,7 @@ const Home = () => {
             <Banner></Banner>
             <AboutMe></AboutMe>
             <Skills></Skills>
+            <Education></Education>
             <Projects></Projects>
             <Services></Services>
             <ContactUsEmail></ContactUsEmail>

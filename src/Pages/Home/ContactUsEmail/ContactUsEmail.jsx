@@ -44,7 +44,7 @@ const ContactUsEmail = () => {
                             <img className='w-[25px] mr-3 ' src="../../../../public/phone-call.png" alt="" />
                             <h1 className=' text-xl'> Phone</h1>
                         </div>
-                        <h1 className='text-xl'>+880 1814970388</h1>
+                        <h1 className='text-xl'>+880 1946545385</h1>
                     </div>
                     <div className=' md:ml-60 mb-8'>
                         <div className='flex'>

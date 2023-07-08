@@ -1,12 +1,13 @@
 
 const Navbar = () => {
     const navitem = <div className="text-purple-700 gap-4 md:flex md:mr-60  text-2xl ">
-        <li className="font-bold "><a href="#home">Home</a></li>
-        <li className="font-bold "><a href="#aboutme">About Me</a></li>
-        <li className="font-bold"><a href="#skills">Skills</a></li>
-        <li className="font-bold"> <a href="#projects">Projects</a></li>
-        <li className="font-bold"><a href="#services">Services</a></li>
-        <li className="font-bold"><a href="#contact">Contact Me</a></li>
+        <h1 className="font-bold  "><a href="#home">Home</a></h1>
+        <h1 className="font-bold "><a href="#aboutme">About Me</a></h1>
+        <h1 className="font-bold"><a href="#skills">Skills</a></h1>
+        <h1 className="font-bold"><a href="#education">Education</a></h1>
+        <h1 className="font-bold"> <a href="#projects">Projects</a></h1>
+        <h1 className="font-bold"><a href="#services">Services</a></h1>
+        <h1 className="font-bold"><a href="#contact">Contact Me</a></h1>
     </div>
 
     return (
