@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import logo from '../../../../public/project3/Screenshot (408).jpg'
 import logo1 from '../../../../public/project1/photo1.jpg'
 import logo2 from '../../../../public/project2/img1.jpg'
 import logo3 from '../../../../public/project3/img1 (1).jpg'
@@ -11,7 +12,7 @@ const Projects = () => {
             <div className="grid md:grid-cols-3 ml-6 px-2 ">
                 <div data-aos="fade-up-right" className=' md:w-[410px] w-[300px] p-4 text-base-content bg-slate-200 mt-6  hover:bg-slate-400 hover:text-black rounded-lg shadow-xl  hover:translate-x-2.5 hover:translate-y-3 text-center'>
                     <div className="image-wrap">
-                        <img className='mb-2' src='https://i.ibb.co/0J3VDwf/Screenshot-408.png' />
+                        <img className='mb-2' src={logo}/>
                     </div>
                     <div className='md:flex mt-4 grid gap-2'>
                         <Link className='md:text-xl p-2  ml-1 bg-purple-700 rounded-xl text-white hover:bg-white hover:text-purple-700 hover:font-bold' to="https://flex-flow.web.app/" target='-blank'>Live Site</Link>
