@@ -7,7 +7,7 @@ const Banner = () => {
 
   const handleDownload = () => {
     const link = document.createElement('a');
-    const mr = link.href = 'Resume Of Masud Rana.pdf';
+    const mr = link.href = 'Resume Of Masud Rana MERN.pdf';
     link.download = mr;
     link.click();
   };
@@ -38,7 +38,7 @@ const Banner = () => {
           <button onClick={handleDownload} className='btn bg-purple-700 text-white hover:bg-white hover:text-purple-700  mt-10'>Download Resume</button>
           {/* <a href="Resume Of Masud Rana.pdf" download='Resume Of Masud Rana.pdf'>d now</a> */}
           <div className="flex justify-center ml-6  gap-5 text-4xl mt-10">
-            <Link className="text-purple-700" to='https://www.linkedin.com/in/md-masud-rana-a45676282/'><FaLinkedin></FaLinkedin></Link>
+            <Link className="text-purple-700" to='https://www.linkedin.com/in/md-masud-rana00/'><FaLinkedin></FaLinkedin></Link>
             <Link className="text-purple-700" to='https://github.com/masudra'><FaGithub></FaGithub></Link>
             <Link className="text-purple-700" to='https://www.facebook.com/masudrana0707'><FaFacebook></FaFacebook></Link>
             <Link className="text-purple-700" to='https://twitter.com/MdMasud71285325'><FaTwitter></FaTwitter></Link>

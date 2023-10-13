@@ -1,7 +1,7 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import myphoto from '../../../../public/Serveis/my photo.jpg'
+import myphoto from '../../../../public/skills/img MASUD RANA  for Pofile.png'
 
 
 AOS.init({
@@ -28,12 +28,12 @@ const AboutMe = () => {
                         <div data-aos="zoom-out-up" className=" w-[170px] mb-10  p-4 text-base-content bg-slate-200 hover:bg-white hover:text-black rounded-lg shadow-xl  hover:translate-x-2.5 hover:translate-y-3 text-center">
                             <img className="w-[40px] mx-auto " src="../../../../public/experience.png" alt="" />
                             <h1 className="text-2xl my-2">Experience</h1>
-                            <h1 className="text-xl ">3 Month</h1>
+                            <h1 className="text-xl ">6+ Month</h1>
                         </div>
                         <div data-aos="zoom-out-up" className=" w-[170px] mb-10  p-4  text-base-content bg-slate-200 hover:bg-white hover:text-black rounded-lg shadow-xl  hover:translate-x-2.5 hover:translate-y-3 text-center">
                             <img className="w-[40px] mx-auto " src="../../../../public/project (1).png" alt="" />
                             <h1 className="text-2xl my-2">Projects</h1>
-                            <h1 className="text-xl ">15+</h1>
+                            <h1 className="text-xl ">30+</h1>
                         </div>
                         <div data-aos="zoom-out-up" className=" w-[170px] mb-10  p-4 text-base-content bg-slate-200 hover:bg-white hover:text-black rounded-lg shadow-xl  hover:translate-x-2.5 hover:translate-y-3 text-center">
                             <img className="w-[40px] mx-auto " src="../../../../public/customer-care-icon.png" alt="" />
